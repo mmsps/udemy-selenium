@@ -16,11 +16,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+=======
+>>>>>>> branch 'master' of https://github.com/mmsps/udemy-selenium.git
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="test" value="true"/>
@@ -28,10 +31,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
+<<<<<<< HEAD
 			<attribute name="test" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
+=======
+			<attribute name="module" value="true"/>
+>>>>>>> branch 'master' of https://github.com/mmsps/udemy-selenium.git
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
