@@ -24,19 +24,6 @@ import br.gov.cursoSelenium.tests.SaldoTest;
 
 })
 public class SuiteGeral {
-	private static LoginPage loginPage = new LoginPage();
 
-	@BeforeClass
-	public static void inicializa(){
-		loginPage.acessarPaginaInicial();
-		loginPage.setEmail("mauricio.paiva@gmail.com");
-		loginPage.setSenha("10013543");
-		loginPage.entrar();
-	}
-
-	@AfterClass
-	public static void kill(){
-		DriverFactory.killDriver();	
-	}
 
 }

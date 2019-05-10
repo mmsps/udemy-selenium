@@ -23,7 +23,17 @@ public class BaseTest {
 	@Rule
 	public TestName testName = new  TestName();
 	
+	private LoginPage pageLogin = new LoginPage();
 	
+	@Before
+	public void inicializa() {
+		
+		pageLogin.acessarPaginaInicial();
+		pageLogin.setEmail("mauricio.paiva@gmail.com");
+		pageLogin.setSenha("10013543");
+		pageLogin.entrar();
+		
+	}
 	
 	@After
 	public void end() {
